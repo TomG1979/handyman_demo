@@ -55,7 +55,9 @@ nav ul li a {
 
 /* Hero Section */
 #hero {
-  background: url('https://raw.githubusercontent.com/TomG1979/handyman_demo/main/High-resolution%2C%20realistic%20image%20of%20a%20handyman%20in%20a%20mystic%2C%20enchanting%20environment.%20Gentle%20color%20contrasts%2C%20dreamlike%20atmosphere%2C%20and%20an%20ethereal%20quality.%20Focus%20on%20soft%2C%20otherworldly%20lighting.jpg') center center/cover no-repeat;
+  /* The background-position has been changed to center 75% 
+     to move the image down, revealing more of the face. */
+  background: url('https://raw.githubusercontent.com/TomG1979/handyman_demo/main/High-resolution%2C%20realistic%20image%20of%20a%20handyman%20in%20a%20mystic%2C%20enchanting%20environment.%20Gentle%20color%20contrasts%2C%20dreamlike%20atmosphere%2C%20and%20an%20ethereal%20quality.%20Focus%20on%20soft%2C%20otherworldly%20lighting.jpg') center 75%/cover no-repeat;
   height: 70vh;
   display: flex;
   align-items: center;
