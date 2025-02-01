@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handyman Pro | Trusted Handyman Services</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Fixed Header */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 2em;
+    }
+
+    nav ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding-top: 100px; /* space for the fixed header */
+    }
+
+    /* Hero Section */
+    #hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #f4f4f4;
+    }
+
+    #hero img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    #hero h2 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    #hero p {
+      font-size: 1.2em;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 60px 0;
+    }
+
+    /* Alternate background for sections */
+    section:nth-of-type(even) {
+      background: #f4f4f4;
+    }
+
+    /* Services Section */
+    #services h2,
+    #about h2,
+    #contact h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .service-item {
+      margin-bottom: 20px;
+    }
+
+    .service-item h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* About Section */
+    #about p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    /* Contact Section */
+    #contact form {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    #contact input,
+    #contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    #contact button {
+      padding: 10px 20px;
+      background: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    #contact button:hover {
+      background: #555;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      #hero h2 {
+        font-size: 2.5em;
+      }
+      nav ul li {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <h1>Handyman Pro</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section with Construction Image -->
+  <section id="hero">
+    <div class="container">
+      <!-- Construction picture added below -->
+      <img src="https://source.unsplash.com/800x600/?construction" alt="Construction Site">
+      <h2>Your Trusted Handyman</h2>
+      <p>Reliable, efficient, and professional handyman services at your doorstep.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-item">
+        <h3>General Repairs</h3>
+        <p>From fixing a leaky faucet to repairing a broken door, we handle it all.</p>
+      </div>
+      <div class="service-item">
+        <h3>Electrical Work</h3>
+        <p>Professional electrical services for safe and efficient home improvements.</p>
+      </div>
+      <div class="service-item">
+        <h3>Plumbing Services</h3>
+        <p>Expert plumbing solutions for all your installation and repair needs.</p>
+      </div>
+      <div class="service-item">
+        <h3>Carpentry</h3>
+        <p>Custom carpentry work to give your home a unique and functional touch.</p>
+      </div>
+      <div class="service-item">
+        <h3>Maintenance & Installations</h3>
+        <p>Regular maintenance and installation services to keep your home running smoothly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Handyman Pro has been providing top-notch repair and maintenance services to homeowners and businesses. We pride ourselves on our professionalism, reliability, and commitment to quality workmanship. Whether you need a quick fix or a major renovation, our skilled team is ready to help.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <!-- This form uses a mailto action; for a real website you might handle submissions on your server -->
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Handyman Pro. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
