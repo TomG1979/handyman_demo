@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handyman Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: #333; color: white; padding: 20px; }
+        section { padding: 20px; }
+        .services { background: #f4f4f4; }
+        .contact { background: #ddd; padding: 30px; }
+        .button { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; }
+        footer { background: #222; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reliable Handyman Services</h1>
+        <p>Your trusted partner for home repairs and improvements</p>
+    </header>
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Plumbing Repairs</li>
+            <li>Electrical Work</li>
+            <li>Carpentry</li>
+            <li>Painting</li>
+            <li>General Home Maintenance</li>
+        </ul>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: handyman@example.com</p>
+        <a href="mailto:handyman@example.com" class="button">Get a Free Quote</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Reliable Handyman Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
