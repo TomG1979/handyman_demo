@@ -55,7 +55,7 @@ nav ul li a {
 
 /* Hero Section */
 #hero {
-  background: url('High-resolution, realistic image of a handyman in a mystic, enchanting environment. Gentle color contrasts, dreamlike atmosphere, and an ethereal quality. Focus on soft, otherworldly lighting.jpg/path/to/hero-image.jpg') center center/cover no-repeat;
+  background: url('https://github.com/TomG1979/handyman_demo/blob/main/High-resolution%2C%20realistic%20image%20of%20a%20handyman%20in%20a%20mystic%2C%20enchanting%20environment.%20Gentle%20color%20contrasts%2C%20dreamlike%20atmosphere%2C%20and%20an%20ethereal%20quality.%20Focus%20on%20soft%2C%20otherworldly%20lighting.jpg/path/to/hero-image.jpg') center center/cover no-repeat;
   color: #fff;
   height: 70vh;
   display: flex;
